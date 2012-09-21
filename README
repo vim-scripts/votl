@@ -1,0 +1,26 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4223
+
+
+votl is an outline processor designed for super fast authoring. It was
+originally forked from VimOutliner and features include tree expand and
+collapse, tree promotion and demotion, sorting children, level sensitive
+colors, checkboxes and completion percentages for todo lists, tags, quick
+time and date entry, unformatted and formatted body text, tables, and
+support for calendar entries.
+
+The file extension used by votl is .votl and remains compatible with the
+existing .otl file format that VimOutliner uses.
+
+The votl enhancements not found in VimOutliner are:
+
+ - Cycle over folds under the current header with <Tab>.
+ - Quickly jumping between sections with the [[ ]] { } keystrokes.
+ - Better coloring and support for much finer grained syntax highlighting.
+ - Support for daily diary/journaling with a Calendar.
+ - New support for tagging and the ability to quickly search for tags.
+   Formatted exactly like Emacs org-mode tags.
+ - Support for RestructuredText formatted tables.
+ - Code cleanup/simplification and a better user experience.
+
+Source on github: https://github.com/insanum/votl
+
